@@ -46,9 +46,9 @@ I'm also open for experimentation from the comunity. We can also code something 
 - [x] get CADing and CAD out the matrix
   - [x] Make build plans
   - [x] Make a beutifull readme.md
-  - [ ] Post it!
+  - [x] Post it!
 - [ ] build out and test the WLED code at home with the help of [TwinkleTron](https://github.com/Tomas-Kuchta-FPV/TwinkleTron-Wled-Controller)
-  - [ ] Make cool light effects
+  - [ ] Make cool light effects sequence
   - [ ] and if there is time, interface with it and make some fun game like a snake
 
 - [ ] Get all the needed parts to the outpost hackathon venue - IDK how please help
@@ -74,7 +74,7 @@ I'm also open for experimentation from the comunity. We can also code something 
 | Electrical tape        | 6 pack     | 10        | [Home Depot](https://www.homedepot.com/p/Commercial-Electric-1-2-in-x-20-ft-Electric-Tape-Multi-Color-6-Pack-30005336/206874157)                                                           | You never know when you need it       |
 | TwinkleTron            | 1          | -         | I'll grab it from home                                                                                                                                                                     | DIY lightning controller :)           |
 
-*Subtotal:* 
+*Subtotal:* HD $166.21 | A $612.97
 
 **Stand**
 | Item                            | Qty   | Price ($) | Link/Source                                                                                                                                       | Note                                           |
@@ -84,23 +84,23 @@ I'm also open for experimentation from the comunity. We can also code something 
 | Screws                          | 1 box | 12        | [Home Depot](https://www.homedepot.com/p/Grip-Rite-9-x-3-in-Star-Drive-Dual-Flat-Head-Coarse-Thread-Construction-Screws-1-lb-Box-3GCS1/204959258) | Kinda self explanatory                         |
 | Home depod delivery  ¯\_(ツ)_/¯ | -     | 79        |                                                                                                                                                   | The logistics should be discussed with alexren |
 
-*Subtotal:* 
+*Subtotal:* HD $111.04 | A $0
 
 **Tools**
-| Item                           | Qty | Price ($) | Link/Source                                                                                           | Note |
-| ------------------------------ | --- | --------- | ----------------------------------------------------------------------------------------------------- | ---- |
-| Impact driver                  | -   | -         | Can be borrowed                                                                                       |
-| Saw                            | -   | -         | Can be borrowed                                                                                       |
-| Soldering iron                 | -   | -         | Can be borrowed                                                                                       |
-| Hot glue gun                   | -   | -         | Can be borrowed                                                                                       |
-| pernament marker               | 3   |
-| Crazy ampermeter to mesure 80A |
-| Multimeter                     |
-| power cord                     | 2   | 27*2      | [Amazon](https://www.amazon.com/Skrizcable-Extension-Waterproof-Weatherproof-Retardant/dp/B0G7XSZJPC) |
+| Item                              | Qty | Price ($) | Link/Source                                                                                           | Note |
+| --------------------------------- | --- | --------- | ----------------------------------------------------------------------------------------------------- | ---- |
+| Impact driver                     | -   | -         | Can be borrowed                                                                                       |
+| Saw                               | -   | -         | Can be borrowed                                                                                       |
+| Soldering iron                    | -   | -         | Can be borrowed                                                                                       |
+| Hot glue gun                      | -   | -         | Can be borrowed                                                                                       |
+| pernament marker                  | 3   |
+| Crazy ampermeter to mesure 80A IG | 2   | -         | ?                                                                                                     |
+| Multimeter                        | -   | -         |
+| power cord                        | 2   | 27*2      | [Amazon](https://www.amazon.com/Skrizcable-Extension-Waterproof-Weatherproof-Retardant/dp/B0G7XSZJPC) |
 
 *Subtotal:* free 99 if we borrow
 
-**Total (excluding tools):** 
+**Total (excluding tools):** $724,37
 
 ## Other
 Here is the parent repo:  
