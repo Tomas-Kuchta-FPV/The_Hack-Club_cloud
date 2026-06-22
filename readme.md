@@ -1,7 +1,7 @@
 # The Hack Club cloud
 Hack club alows teenagers to build their dream projects.  
-So why not to visualize it and shout it at Open Sauce! It's all about bringing crazy ideas to real life.  
-We are going to build a huge LED cloud wall matrix with like a lot of people, it's going to be awesome!  
+So why not to visualize it and show it off at Open Sauce! It's all about bringing crazy ideas to real life.  
+We are going to build a huge LED cloud wall matrix at the outpost hackathon with like a lot of people, and it's going to be awesome!  
 This is so ambitious and crazy - LEDs build it!  
 You can also folow the jurney here https://stardance.hackclub.com/projects/21092.  
 
@@ -32,6 +32,9 @@ y = 24 adresable rows => 48 rows in total of *x*
 | Maximum power                      | ≈ 2074 W      |
 | Maximum current @ 24 V             | ≈ 86.4 A      |
 
+## SW
+This project is going to use well known FW called WLED with a my DIY lightning controller called [TwinkleTron](https://github.com/Tomas-Kuchta-FPV/TwinkleTron-Wled-Controller).  
+I'm also open for experimentation from the comunity. We can also code something like a snake game or tetris.  
 
 ## Pivot tracking
 1. Make a matrix out of smart wifi LED bulbs. - it's going to be super expensive like $3k 
@@ -40,11 +43,11 @@ y = 24 adresable rows => 48 rows in total of *x*
 4. One step further - An adressable cloud wall!!!!
 
 ## Game plan
-- [ ] get CADing and CAD out the matrix
+- [x] get CADing and CAD out the matrix
   - [x] Make build plans
   - [x] Make a beutifull readme.md
   - [ ] Post it!
-- [ ] build out and test the WLED code at home with the help of [TwinkleTron](https://github.com/Tomas-Kuchta-FPV?tab=repositories&q=twinkle)
+- [ ] build out and test the WLED code at home with the help of [TwinkleTron](https://github.com/Tomas-Kuchta-FPV/TwinkleTron-Wled-Controller)
   - [ ] Make cool light effects
   - [ ] and if there is time, interface with it and make some fun game like a snake
 
@@ -69,6 +72,7 @@ y = 24 adresable rows => 48 rows in total of *x*
 | 70A fuze               | 3 pack     | 4,3       | [Amazon](https://www.amazon.com/YUPIKJI-Universal-Construction-Vehicles-Electrocar/dp/B0GC52XM44/ref=sr_1_4)                                                                               | safety first kids                     |
 | WAGOS!                 | 10         | 9         | [Home Depot](https://www.homedepot.com/p/WAGO-221-413K006-000-3-Wire-Lever-Nuts-Conductor-Compact-Splicing-Connectors-12-24-AWG-10-Pack-221-413K006-000/334555570)                         | I'm almost german lol                 |
 | Electrical tape        | 6 pack     | 10        | [Home Depot](https://www.homedepot.com/p/Commercial-Electric-1-2-in-x-20-ft-Electric-Tape-Multi-Color-6-Pack-30005336/206874157)                                                           | You never know when you need it       |
+| TwinkleTron            | 1          | -         | I'll grab it from home                                                                                                                                                                     | DIY lightning controller :)           |
 
 *Subtotal:* 
 
