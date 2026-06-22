@@ -41,8 +41,8 @@ y = 24 adresable rows => 48 rows in total of *x*
 
 ## Game plan
 - [ ] get CADing and CAD out the matrix
-  - [ ] Make build plans
-  - [ ] Make a beutifull readme.md
+  - [x] Make build plans
+  - [x] Make a beutifull readme.md
   - [ ] Post it!
 - [ ] build out and test the WLED code at home with the help of [TwinkleTron](https://github.com/Tomas-Kuchta-FPV?tab=repositories&q=twinkle)
   - [ ] Make cool light effects
@@ -54,20 +54,21 @@ y = 24 adresable rows => 48 rows in total of *x*
 - [ ] And maybe we can give it to someone or action it off. (I hope that will spark some teens interest :)
 
 ## BOM
-| Item                  | Qty        | Price ($) | Link/Source                                                                                                                                                                                | Note                                  |
-| --------------------- | ---------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------- |
-| LED Strips            | 15m * 8    | 48 * 8    | [Amazon](https://www.amazon.com/BTF-LIGHTING-Addressable-100Pixels-Non-Waterproof-Respberry/dp/B0DCG5G9VQ)                                                                                 | The main part lol                     |
-| 1000uF 25V Caps       | ~10        | 7         | [Amazon](https://www.amazon.com/10x20mm-Electrolytic-Capacitor-Aluminum-Capacitors/dp/B0F8C1VMT6/ref=sr_1_6)                                                                               | It will filter out the voltage spikes |
-| Pillow fill           | 5 lbs      | 25        | [Amazon 1](https://www.amazon.com/Fairfield-Poly-Premium-Fiber-32-Ounce/dp/B002OUP6JE/) or [Amazon 2](https://www.amazon.com/Jecqbor-Polyfill-Stuffing-Polyester-Fiberfill/dp/B0G2WZL4Z2/) | the cloud material                    |
-| Spray adhesive        | 2          | 13 * 2    | [Home Depot](https://www.homedepot.com/p/Gorilla-14-oz-Spray-Adhesive-6301502/303508262)                                                                                                   | to attach the cloud to the OBS        |
-| 3 strand wire 18awg   | 30ft / 10m | 55        | [Home Depot](https://www.homedepot.com/p/Vrbgify-30-ft-18-Gauge-3-Conductor-Stranded-Grounded-Landscape-Lighting-Wire-Waterproof-Flexible-PVC-Cut-to-Length-Roll-BSA1127D462/341232884)    | LED connection wire                   |
-| 3 strand wire 20awg   | 32ft       | 19        | [Amazon](https://www.amazon.com/BTF-LIGHTING-Electrical-Extension-Connection-Changing/dp/B0C81L9GT7/ref=sr_1_2)                                                                            | Better for signal and low pewer       |
-| 2 strand wire 10awg   | 30ft / 10m | 61        | [Home Depot](https://www.homedepot.com/p/Vrbgify-30-ft-12-Gauge-2-Conductors-Stranded-Grounded-Landscape-Lighting-Wire-Cut-Flexible-Copper-Clad-Aluminum-PVC-BSA1127D443/341232845)        | LED power injection                   |
-| 24V PSU - 62.5A 1500W | 2          | 83 * 2    | [Amazon](https://www.amazon.com/Switching-Transformer-Equipment-Security-Industrial/dp/B0C5JPGSSN/ref=pd_sbs_d_sccl_1_5/142-7465642-2874558)                                               | to power the crazy contraption        |
-| USA power plug        | 2          | 5 * 2     | [Amazon](https://www.amazon.com/Computer-Monitor-Printer-PlayStation-Asus-ETL/dp/B0FNML9SRY)                                                                                               | for connecting to the grid            |
-| 70A fuze              | 3 pack     | 4,3       | [Amazon](https://www.amazon.com/YUPIKJI-Universal-Construction-Vehicles-Electrocar/dp/B0GC52XM44/ref=sr_1_4)                                                                               | safety first kids                     |
-| WAGOS!                | 10         | 9         | [Home Depot](https://www.homedepot.com/p/WAGO-221-413K006-000-3-Wire-Lever-Nuts-Conductor-Compact-Splicing-Connectors-12-24-AWG-10-Pack-221-413K006-000/334555570)                         | I'm almost german lol                 |
-| Electrical tape       | 6 pack     | 10        | [Home Depot](https://www.homedepot.com/p/Commercial-Electric-1-2-in-x-20-ft-Electric-Tape-Multi-Color-6-Pack-30005336/206874157)                                                           | You never know when you need it       |
+| Item                   | Qty        | Price ($) | Link/Source                                                                                                                                                                                | Note                                  |
+| ---------------------- | ---------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------- |
+| LED Strips             | 15m * 8    | 48 * 8    | [Amazon](https://www.amazon.com/BTF-LIGHTING-Addressable-100Pixels-Non-Waterproof-Respberry/dp/B0DCG5G9VQ)                                                                                 | The main part lol                     |
+| 1000uF 25V Caps        | ~10        | 7         | [Amazon](https://www.amazon.com/10x20mm-Electrolytic-Capacitor-Aluminum-Capacitors/dp/B0F8C1VMT6/ref=sr_1_6)                                                                               | It will filter out the voltage spikes |
+| Pillow fill            | 5 lbs      | 25        | [Amazon 1](https://www.amazon.com/Fairfield-Poly-Premium-Fiber-32-Ounce/dp/B002OUP6JE/) or [Amazon 2](https://www.amazon.com/Jecqbor-Polyfill-Stuffing-Polyester-Fiberfill/dp/B0G2WZL4Z2/) | the cloud material                    |
+| Light blue spray paint | 1          | 7         | [Home Depot](https://www.homedepot.com/p/Rust-Oleum-Painter-s-Touch-2X-12-oz-Satin-Seaside-General-Purpose-Spray-Paint-334095/307244941)                                                   | To make the OBS pretier               |
+| Spray adhesive         | 2          | 13 * 2    | [Home Depot](https://www.homedepot.com/p/Gorilla-14-oz-Spray-Adhesive-6301502/303508262)                                                                                                   | to attach the cloud to the OBS        |
+| 3 strand wire 18awg    | 30ft / 10m | 55        | [Home Depot](https://www.homedepot.com/p/Vrbgify-30-ft-18-Gauge-3-Conductor-Stranded-Grounded-Landscape-Lighting-Wire-Waterproof-Flexible-PVC-Cut-to-Length-Roll-BSA1127D462/341232884)    | LED connection wire                   |
+| 3 strand wire 20awg    | 32ft       | 19        | [Amazon](https://www.amazon.com/BTF-LIGHTING-Electrical-Extension-Connection-Changing/dp/B0C81L9GT7/ref=sr_1_2)                                                                            | Better for signal and low pewer       |
+| 2 strand wire 10awg    | 30ft / 10m | 61        | [Home Depot](https://www.homedepot.com/p/Vrbgify-30-ft-12-Gauge-2-Conductors-Stranded-Grounded-Landscape-Lighting-Wire-Cut-Flexible-Copper-Clad-Aluminum-PVC-BSA1127D443/341232845)        | LED power injection                   |
+| 24V PSU - 62.5A 1500W  | 2          | 83 * 2    | [Amazon](https://www.amazon.com/Switching-Transformer-Equipment-Security-Industrial/dp/B0C5JPGSSN/ref=pd_sbs_d_sccl_1_5/142-7465642-2874558)                                               | to power the crazy contraption        |
+| USA power plug         | 2          | 5 * 2     | [Amazon](https://www.amazon.com/Computer-Monitor-Printer-PlayStation-Asus-ETL/dp/B0FNML9SRY)                                                                                               | for connecting to the grid            |
+| 70A fuze               | 3 pack     | 4,3       | [Amazon](https://www.amazon.com/YUPIKJI-Universal-Construction-Vehicles-Electrocar/dp/B0GC52XM44/ref=sr_1_4)                                                                               | safety first kids                     |
+| WAGOS!                 | 10         | 9         | [Home Depot](https://www.homedepot.com/p/WAGO-221-413K006-000-3-Wire-Lever-Nuts-Conductor-Compact-Splicing-Connectors-12-24-AWG-10-Pack-221-413K006-000/334555570)                         | I'm almost german lol                 |
+| Electrical tape        | 6 pack     | 10        | [Home Depot](https://www.homedepot.com/p/Commercial-Electric-1-2-in-x-20-ft-Electric-Tape-Multi-Color-6-Pack-30005336/206874157)                                                           | You never know when you need it       |
 
 *Subtotal:* 
 
@@ -75,7 +76,7 @@ y = 24 adresable rows => 48 rows in total of *x*
 | Item                            | Qty   | Price ($) | Link/Source                                                                                                                                       | Note                                           |
 | ------------------------------- | ----- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
 | OBS Board                       | 2     | 11        | [Home Depot](https://www.homedepot.com/p/OSB-7-16-Application-as-4ft-X-8-ft-Sheathing-Panel-386081/202106230)                                     | Everything will attach to it                   |
-| 2x4 lumber                      | 5     | 17,4      | [Home Depot](https://www.homedepot.com/p/2-in-x-4-in-x-8-ft-2-Premium-Grade-Dimensional-Lumber-441317/202094172)                                  | Posts to raise it up.                          |
+| 2x4 lumber                      | 3     | 17,4      | [Home Depot](https://www.homedepot.com/p/2-in-x-4-in-x-8-ft-2-Premium-Grade-Dimensional-Lumber-441317/202094172)                                  | Posts to raise it up.                          |
 | Screws                          | 1 box | 12        | [Home Depot](https://www.homedepot.com/p/Grip-Rite-9-x-3-in-Star-Drive-Dual-Flat-Head-Coarse-Thread-Construction-Screws-1-lb-Box-3GCS1/204959258) | Kinda self explanatory                         |
 | Home depod delivery  ¯\_(ツ)_/¯ | -     | 79        |                                                                                                                                                   | The logistics should be discussed with alexren |
 
