@@ -7,8 +7,9 @@ You can also folow the jurney here https://stardance.hackclub.com/projects/21092
 
 Have you ever heard of cloud walls? Most of them are a static color, but this one's going to be almost like a LED matrix but clouds!  
 
+ My vision for this peoject is defined in vision board.png. Build instructions are in build_plan.md, Schematic+block_diagram.drawio.pdf and LEDstand.pdf.
 
-## Constraints
+## Design Constraints
 - Price should be a concern
 - The LED strips have 10cm segments and toy can addres the whole segment at once.
 - 60LEDs/m, 18W/m, power injextion evhery 20m
