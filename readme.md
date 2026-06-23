@@ -27,14 +27,14 @@ y = 12 adresable rows => 24 rows in total of *x*
 ### Sumary
 | Item                               | Value      |
 | ---------------------------------- | ---------- |
-| Total strip length                 | 5.76 m     |
-| 10 m reels needed                  | 1 reel     |
-| Spare strip                        | 4.24 m     |
+| Total strip length                 | 57.6 m     |
+| 15 m reels needed                  | 4 reels    |
+| Spare strip                        | 2,4 m      |
 | total LEDs adressable (segments)   | 288 LEDs   |
 | LEDs total                         | 1728 LEDs  |
 | Logical matrix (24 paired columns) | 24 × 12    |
-| Maximum power                      | ≈ 103,68 W |
-| Maximum current @ 24 V             | ≈ 4,32 A   |
+| Maximum power                      | ≈ 1036,8 W |
+| Maximum current @ 24 V             | ≈ 43,2 A   |
 
 ## SW
 This project is going to use well known FW called WLED with a my DIY lightning controller called [TwinkleTron](https://github.com/Tomas-Kuchta-FPV/TwinkleTron-Wled-Controller).  
@@ -52,6 +52,7 @@ I'm also open for experimentation from the comunity. We can also code something 
   - [x] Make a beutifull readme.md
   - [x] Post it!
 - [ ] build out and test the WLED code at home with the help of [TwinkleTron](https://github.com/Tomas-Kuchta-FPV/TwinkleTron-Wled-Controller)
+  - [x] Configure it
   - [ ] Make cool light effects sequence
   - [ ] and if there is time, interface with it and make some fun game like a snake
 
@@ -63,20 +64,19 @@ I'm also open for experimentation from the comunity. We can also code something 
 ## BOM
 | Item                   | Qty        | Price ($) | Link/Source                                                                                                                                                                                | Note                                  |
 | ---------------------- | ---------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------- |
-| adressable LED Strips 24V | 10m        | 35.5      | [Amazon](https://www.amazon.com/BTF-LIGHTING-Addressable-100Pixels-Non-Waterproof-Respberry/dp/B07X5X8NGZ)                                                                                 | The main part lol                     |
+| LED Strips             | 15m * 4    | 49.48 * 4 | [Amazon](https://www.amazon.com/BTF-LIGHTING-Addressable-100Pixels-Non-Waterproof-Respberry/dp/B0DCG5G9VQ)                                                                                 | The main part lol                     |
 | 1000uF 25V Caps        | ~10        | 7         | [Amazon](https://www.amazon.com/10x20mm-Electrolytic-Capacitor-Aluminum-Capacitors/dp/B0F8C1VMT6/ref=sr_1_6)                                                                               | It will filter out the voltage spikes |
 | Pillow fill            | 5 lbs      | 25        | [Amazon 1](https://www.amazon.com/Fairfield-Poly-Premium-Fiber-32-Ounce/dp/B002OUP6JE/) or [Amazon 2](https://www.amazon.com/Jecqbor-Polyfill-Stuffing-Polyester-Fiberfill/dp/B0G2WZL4Z2/) | the cloud material                    |
 | Light blue spray paint | 1          | 7         | [Home Depot](https://www.homedepot.com/p/Rust-Oleum-Painter-s-Touch-2X-12-oz-Satin-Seaside-General-Purpose-Spray-Paint-334095/307244941)                                                   | To make the OBS pretier               |
 | Spray adhesive         | 2          | 13 * 2    | [Home Depot](https://www.homedepot.com/p/Gorilla-14-oz-Spray-Adhesive-6301502/303508262)                                                                                                   | to attach the cloud to the OBS        |
-| 3 strand wire 20awg    | 32ft       | 19        | [Amazon](https://www.amazon.com/BTF-LIGHTING-Electrical-Extension-Connection-Changing/dp/B0C81L9GT7/ref=sr_1_2)                                                                            | Better for signal and low pewer       |
+| 3 strand wire 20awg    | 32ft       | 16.13     | [Amazon](https://www.amazon.com/BTF-LIGHTING-Electrical-Extension-Connection-Changing/dp/B0C81L9GT7/ref=sr_1_2)                                                                            | Better for signal and low pewer       |
 | 2 strand wire 10awg    | 30ft / 10m | 61        | [Home Depot](https://www.homedepot.com/p/Vrbgify-30-ft-12-Gauge-2-Conductors-Stranded-Grounded-Landscape-Lighting-Wire-Cut-Flexible-Copper-Clad-Aluminum-PVC-BSA1127D443/341232845)        | LED power injection                   |
-| 24V PSU - 5A  | 1          | 30.99    | [Amazon](https://www.amazon.com/BTF-LIGHTING-AC100-240V-Transformer-Converter-5-5x2-1mm/dp/B09T6QX737)                                               | to power the crazy contraption        |
-| USA power plug         | 1          | 5     | [Amazon](https://www.amazon.com/Computer-Monitor-Printer-PlayStation-Asus-ETL/dp/B0FNML9SRY)                                                                                               | for connecting to the grid            |
+| 24V PSU - 1200W        | 1          | 70        | [Amazon](https://www.amazon.com/VAYALT-Switching-Universal-Transformer-Industrial/dp/B0FCSK1M9K/)                                                                                          | to power the crazy contraption        |
+| USA power plug         | 1          | 5         | [Amazon](https://www.amazon.com/Computer-Monitor-Printer-PlayStation-Asus-ETL/dp/B0FNML9SRY)                                                                                               | for connecting to the grid            |
 | WAGOS!                 | 10         | 9         | [Home Depot](https://www.homedepot.com/p/WAGO-221-413K006-000-3-Wire-Lever-Nuts-Conductor-Compact-Splicing-Connectors-12-24-AWG-10-Pack-221-413K006-000/334555570)                         | I'm almost german lol                 |
-| Electrical tape        | 6 pack     | 10        | [Home Depot](https://www.homedepot.com/p/Commercial-Electric-1-2-in-x-20-ft-Electric-Tape-Multi-Color-6-Pack-30005336/206874157)                                                           | You never know when you need it       |
 | TwinkleTron            | 1          | -         | I'll grab it from home                                                                                                                                                                     | DIY lightning controller :)           |
 
-*Subtotal:* HD $111,21 | A $612.97
+*Subtotal:* HD $93,71 | A $322.01
 
 **Stand**
 | Item                            | Qty   | Price ($) | Link/Source                                                                                                                                       | Note                                           |
@@ -86,23 +86,24 @@ I'm also open for experimentation from the comunity. We can also code something 
 | Screws                          | 1 box | 12        | [Home Depot](https://www.homedepot.com/p/Grip-Rite-9-x-3-in-Star-Drive-Dual-Flat-Head-Coarse-Thread-Construction-Screws-1-lb-Box-3GCS1/204959258) | Kinda self explanatory                         |
 | Home depod delivery  ¯\_(ツ)_/¯ | -     | 79        |                                                                                                                                                   | The logistics should be discussed with alexren |
 
-*Subtotal:* HD $111.04 | A $0
+*Subtotal:* HD $119.4 | A $0
 
 **Tools**
-| Item                              | Qty | Price ($) | Link/Source                                                                                           | Note |
-| --------------------------------- | --- | --------- | ----------------------------------------------------------------------------------------------------- | ---- |
-| Impact driver                     | -   | -         | Can be borrowed                                                                                       |
-| Saw                               | -   | -         | Can be borrowed                                                                                       |
-| Soldering iron                    | -   | -         | Can be borrowed                                                                                       |
-| Hot glue gun                      | -   | -         | Can be borrowed                                                                                       |
-| pernament marker                  | 3   |
-| Crazy ampermeter to mesure 80A IG | 2   | -         | ?                                                                                                     |
-| Multimeter                        | -   | -         |
-| power cord                        | 2   | 27*2      | [Amazon](https://www.amazon.com/Skrizcable-Extension-Waterproof-Weatherproof-Retardant/dp/B0G7XSZJPC) |
+| Item                              | Qty    | Price ($) | Link/Source                                                                                                                      | Note                            |
+| --------------------------------- | ------ | --------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| Impact driver                     | -      | -         | Can be borrowed                                                                                                                  |
+| Saw                               | -      | -         | Can be borrowed                                                                                                                  |
+| Soldering iron                    | -      | -         | Can be borrowed                                                                                                                  |
+| Hot glue gun                      | -      | -         | Can be borrowed                                                                                                                  |
+| pernament marker                  | 3      | -         |                                                                                                                                  |
+| Crazy ampermeter to mesure 80A IG | 2      | -         | ?                                                                                                                                |
+| Multimeter                        | -      | -         |
+| power cord                        | 2      | 27*2      | [Amazon](https://www.amazon.com/Skrizcable-Extension-Waterproof-Weatherproof-Retardant/dp/B0G7XSZJPC)                            |
+| Electrical tape                   | 6 pack | 10        | [Home Depot](https://www.homedepot.com/p/Commercial-Electric-1-2-in-x-20-ft-Electric-Tape-Multi-Color-6-Pack-30005336/206874157) | You never know when you need it |
 
 *Subtotal:* free 99 if we borrow
 
-**Total (excluding tools):** $724,37
+**Total (excluding tools):** $535,12
 
 ## Other
 Here is the parent repo:  

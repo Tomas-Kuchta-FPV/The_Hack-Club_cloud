@@ -1,28 +1,22 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="iD0ZHfDqEPQN_ZQHXnmh">
-    <mxGraphModel dx="2072" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1968" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mfMDxRqSIfLdnLeMbxml-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Exhibition outlets" vertex="1">
-          <mxGeometry height="110" width="70" x="-613" y="217" as="geometry" />
+          <mxGeometry height="110" width="70" x="-610" y="241.5" as="geometry" />
         </mxCell>
-        <mxCell id="mfMDxRqSIfLdnLeMbxml-2" edge="1" parent="1" source="mfMDxRqSIfLdnLeMbxml-1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mfMDxRqSIfLdnLeMbxml-5" value="">
+        <mxCell id="mfMDxRqSIfLdnLeMbxml-2" edge="1" parent="1" source="mfMDxRqSIfLdnLeMbxml-1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mfMDxRqSIfLdnLeMbxml-5" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-253" y="277" as="sourcePoint" />
-            <mxPoint x="-413" y="245" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mfMDxRqSIfLdnLeMbxml-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-543" y="307" as="sourcePoint" />
-            <mxPoint x="-413" y="327" as="targetPoint" />
+            <mxPoint x="-233" y="290" as="sourcePoint" />
+            <mxPoint x="-393" y="258" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-293" y="361.8" as="sourcePoint" />
-            <mxPoint x="-213" y="361.8" as="targetPoint" />
+            <mxPoint x="-273" y="383" as="sourcePoint" />
+            <mxPoint x="-193" y="383" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-9" connectable="0" parent="mfMDxRqSIfLdnLeMbxml-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="String 1 -" vertex="1">
@@ -31,21 +25,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-10" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="80" width="120" x="-413" y="197" as="geometry" />
+          <mxGeometry height="173" width="120" x="-393" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="mfMDxRqSIfLdnLeMbxml-5" parent="mfMDxRqSIfLdnLeMbxml-10" style="rounded=0;whiteSpace=wrap;html=1;" value="24V PSU&lt;div&gt;1500W&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="120" as="geometry" />
+        <mxCell id="mfMDxRqSIfLdnLeMbxml-5" parent="mfMDxRqSIfLdnLeMbxml-10" style="rounded=0;whiteSpace=wrap;html=1;" value="24V PSU&lt;div&gt;1200W&lt;/div&gt;" vertex="1">
+          <mxGeometry height="173.00000000000003" width="120" as="geometry" />
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-6" parent="mfMDxRqSIfLdnLeMbxml-10" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="-" vertex="1">
-          <mxGeometry height="30" width="30" x="90" y="50" as="geometry" />
+          <mxGeometry height="64.875" width="30" x="90" y="108.12500000000001" as="geometry" />
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-7" parent="mfMDxRqSIfLdnLeMbxml-10" style="text;html=1;whiteSpace=wrap;strokeColor=#6F0000;fillColor=#a20025;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="+" vertex="1">
-          <mxGeometry height="30" width="30" x="90" as="geometry" />
+          <mxGeometry height="64.875" width="30" x="90" as="geometry" />
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-293" y="347" as="sourcePoint" />
-            <mxPoint x="-213" y="347" as="targetPoint" />
+            <mxPoint x="-273" y="363" as="sourcePoint" />
+            <mxPoint x="-193" y="363" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-12" connectable="0" parent="mfMDxRqSIfLdnLeMbxml-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="String 2&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;-&lt;/span&gt;" vertex="1">
@@ -55,8 +49,8 @@
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-13" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-293" y="306.61" as="sourcePoint" />
-            <mxPoint x="-213" y="306.61" as="targetPoint" />
+            <mxPoint x="-273" y="274.72" as="sourcePoint" />
+            <mxPoint x="-193" y="274.72" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-14" connectable="0" parent="mfMDxRqSIfLdnLeMbxml-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="String 1 +" vertex="1">
@@ -66,8 +60,8 @@
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-15" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-293" y="291.81" as="sourcePoint" />
-            <mxPoint x="-213" y="291.81" as="targetPoint" />
+            <mxPoint x="-273" y="253" as="sourcePoint" />
+            <mxPoint x="-193" y="253" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-16" connectable="0" parent="mfMDxRqSIfLdnLeMbxml-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="String 2&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;+&lt;/span&gt;" vertex="1">
@@ -77,8 +71,8 @@
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-17" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-293" y="271.8" as="sourcePoint" />
-            <mxPoint x="-213" y="271.8" as="targetPoint" />
+            <mxPoint x="-273" y="343" as="sourcePoint" />
+            <mxPoint x="-193" y="343" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-18" connectable="0" parent="mfMDxRqSIfLdnLeMbxml-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="String 3 -" vertex="1">
@@ -86,22 +80,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mfMDxRqSIfLdnLeMbxml-19" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="80" width="120" x="-413" y="287" as="geometry" />
-        </mxCell>
-        <mxCell id="mfMDxRqSIfLdnLeMbxml-20" parent="mfMDxRqSIfLdnLeMbxml-19" style="rounded=0;whiteSpace=wrap;html=1;" value="24V PSU&lt;div&gt;1500W&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="120" as="geometry" />
-        </mxCell>
-        <mxCell id="mfMDxRqSIfLdnLeMbxml-21" parent="mfMDxRqSIfLdnLeMbxml-19" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="-" vertex="1">
-          <mxGeometry height="30" width="30" x="90" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mfMDxRqSIfLdnLeMbxml-22" parent="mfMDxRqSIfLdnLeMbxml-19" style="text;html=1;whiteSpace=wrap;strokeColor=#6F0000;fillColor=#a20025;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="+" vertex="1">
-          <mxGeometry height="30" width="30" x="90" as="geometry" />
-        </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-23" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-293" y="257" as="sourcePoint" />
-            <mxPoint x="-213" y="257" as="targetPoint" />
+            <mxPoint x="-273" y="323" as="sourcePoint" />
+            <mxPoint x="-193" y="323" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-24" connectable="0" parent="mfMDxRqSIfLdnLeMbxml-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="String 4&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;-&lt;/span&gt;" vertex="1">
@@ -111,8 +93,8 @@
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-25" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-293" y="216.61" as="sourcePoint" />
-            <mxPoint x="-213" y="216.61" as="targetPoint" />
+            <mxPoint x="-273" y="232.72" as="sourcePoint" />
+            <mxPoint x="-193" y="232.72" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-26" connectable="0" parent="mfMDxRqSIfLdnLeMbxml-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="String 3 +" vertex="1">
@@ -122,8 +104,8 @@
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-27" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-293" y="201.81" as="sourcePoint" />
-            <mxPoint x="-213" y="201.81" as="targetPoint" />
+            <mxPoint x="-273" y="213" as="sourcePoint" />
+            <mxPoint x="-193" y="213" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-28" connectable="0" parent="mfMDxRqSIfLdnLeMbxml-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="String 4&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;+&lt;/span&gt;" vertex="1">
@@ -182,7 +164,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-55" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="PI = Power Injection" vertex="1">
-          <mxGeometry height="30" width="120" x="-353" y="397" as="geometry" />
+          <mxGeometry height="30" width="120" x="-333" y="410" as="geometry" />
         </mxCell>
         <mxCell id="mfMDxRqSIfLdnLeMbxml-60" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
